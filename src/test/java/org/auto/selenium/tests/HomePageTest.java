@@ -1,13 +1,14 @@
 package org.auto.selenium.tests;
 
 
+import org.auto.selenium.pages.AuthentificationPage;
 import org.auto.selenium.pages.HomePage;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 
-public class ClassTest extends BaseTest{
+public class HomePageTest extends BaseTest{
 
 
     // Méthode de test
@@ -19,10 +20,6 @@ public class ClassTest extends BaseTest{
         homePage.accesCreditAuto();
         captureScreenshot(driver, "Acceuil");
     }
-
-
-
-
 
 
 

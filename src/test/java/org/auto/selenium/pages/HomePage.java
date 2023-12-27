@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
 
     //Variables de la page d'accueil google
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     private final String chpAccesCreditAuto = "lnkAccesCreditAuto";
 
@@ -21,6 +21,7 @@ public class HomePage {
     // Cliquer sur Acces Credit Auto
 
     public void accesCreditAuto() throws InterruptedException {
+     //   driver.get("http://credit-auto.qsiconseil.ma/");
         driver.findElement(By.id(chpAccesCreditAuto)).click();
         Thread.sleep(3000);
     }
