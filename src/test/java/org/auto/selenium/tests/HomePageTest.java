@@ -12,7 +12,6 @@ public class HomePageTest extends BaseTest{
 
 
     // Méthode de test
-
     @Test
     public void testAccesCreditAuto() throws IOException, InterruptedException {
         test = extent.createTest("Accéder Credit Auto", "Cliquer sur Accés Credit Auto");
