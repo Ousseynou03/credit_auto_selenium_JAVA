@@ -9,6 +9,10 @@ import java.io.IOException;
 
 public class RechercherContratRCDTest extends BaseTest{
 
+
+
+
+
     @Test
     public void testRechercherContratRCD() throws InterruptedException, IOException {
         test = extent.createTest("Search Contrat", "Rechercher Contrat en tant que RCD");
